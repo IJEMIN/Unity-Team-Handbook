@@ -1,2 +1,3 @@
-# Unity-Team-Handbook
-collaboration guide for unity developer team with artists, programmers, designers, etc
+# 유니티 팀 핸드북 : Unity-Team-Handbook
+
+아티스트, 디자이너, 프로그래머 등 다양한 직군으로 이루어진 유니티 개발팀이 한몸 같이 협업할 수 있도록 돕는 가이드북
