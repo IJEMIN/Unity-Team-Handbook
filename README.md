@@ -99,4 +99,24 @@ git은 아티스트와 개발자 성향을 모두 지닌 사람이 제대로 설
 - 모든 게임 오브젝트의 이름은 사람이 읽기 쉬운 형태로 작성해야 합니다.
 - 정상적인 유니티 개발 환경에서는 게임 오브젝트의 이름에 민감하지 않습니다.
 
+- 레거시 OS에서 파일 경로를 적듯이 이름을 짓지 마세요.
+- 소문자와 언더스코어를 조합하여 사용하지 마세요. (특히 UI 게임 오브젝트 이름을 그렇게 짓는 사람들이 있는데 그러면 안됩니다.)
+  - 다음과 같이 이름을 지으면 안됩니다. 형편없이 읽기 힘들며 "게임 오브젝트"라는 단일 개체로서의 맥락이 드러나지 않습니다.
+    - monster_a_something
+    - img_bg
+    - btn_summit
+    - overlay_canvas
+    - camera_follow
+    - item_manager
+    - info_panel
+
+- 다음과 같이 지으세요
+  - Title Text
+  - Label Text
+  - Monster
+  - Master Canvas
+  - Follow Camera
+  - Item Manager
+  - Information Panel
+
 # 프로젝트 관리
